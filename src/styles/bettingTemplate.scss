@@ -1,0 +1,13 @@
+@import './layout/header.scss';
+@import './layout/footer.scss';
+
+.root {
+    height: 938px;
+    background-color: #00abf0;
+    color: aliceblue;
+}
+.container {
+    margin: 24px 100px;
+    padding: 0;
+    width: 100%;
+}

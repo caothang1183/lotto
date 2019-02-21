@@ -1,0 +1,122 @@
+.header {
+  height: auto;
+  border-bottom: 1px solid #ffffff;
+  padding: 4px 0; }
+  .header .logo {
+    display: inline-block;
+    margin: 0 100px;
+    font-size: 43px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.34;
+    letter-spacing: 0.4px;
+    text-align: left; }
+  .header ul {
+    margin: 0px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top; }
+  .header li {
+    list-style-type: none;
+    padding: 0px;
+    display: inline; }
+  .header li a {
+    color: #ffffff;
+    font-size: 16px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    line-height: 70px;
+    padding: 5px 15px; }
+
+.root {
+  height: 938px;
+  background-color: #00abf0;
+  color: aliceblue; }
+
+.container {
+  margin: 24px 100px;
+  padding: 0;
+  width: 100%; }
+
+.box {
+  width: 7%;
+  height: 46px;
+  color: #222222;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-size: 24px;
+  float: left;
+  border: 1px solid #222222;
+  padding: 14px 23px;
+  margin: 12.5px;
+  border-radius: 23px; }
+
+.box:hover {
+  cursor: pointer; }
+
+.active {
+  color: #ffffff;
+  background-color: #00abf0;
+  border: 5px solid #00abf0;
+  -webkit-box-shadow: 0px 2px 9.1px 0.9px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 2px 9.1px 0.9px rgba(0, 0, 0, 0.25); }
+
+.single-bet {
+  height: auto; }
+  .single-bet .title {
+    width: 138px;
+    height: 31px;
+    font-size: 32px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.63;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff; }
+  .single-bet .curent-draw {
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.25;
+    letter-spacing: 0.2px;
+    text-align: right; }
+  .single-bet .curent-draw span {
+    color: #222222;
+    font-size: 22px;
+    border: 1px solid #00abf0;
+    background-color: #ffffff;
+    padding: 2px 10px;
+    border-radius: 10px; }
+  .single-bet .time-left {
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.25;
+    letter-spacing: 0.2px;
+    text-align: right; }
+
+.table-bet {
+  margin: 16px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  display: block;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 12px; }
+  .table-bet p {
+    color: #222222; }

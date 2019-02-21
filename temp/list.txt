@@ -1,0 +1,47 @@
+<table className="table">
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td className="title">Single Bet</td>
+                            <td>January 30, 2019</td>
+                            <td>
+                                <div className="result">
+                                    <ShowNumber />
+                                </div>
+                            </td>
+                            <td><button type="button" className="btn btn-primary">Play Now <i className="fas fa-arrow-right"></i></button></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td className="title">Red Button</td>
+                            <td>January 30, 2019</td>
+                            <td>result</td>
+                            <td><button type="button" className="btn btn-primary">Play Now <i className="fas fa-arrow-right"></i></button></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td className="title">Under - Over</td>
+                            <td>January 30, 2019</td>
+                            <td>result</td>
+                            <td><button type="button" className="btn btn-primary">Play Now <i className="fas fa-arrow-right"></i></button></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">4</th>
+                            <td className="title">Even Odd</td>
+                            <td>January 30, 2019</td>
+                            <td>result</td>
+                            <td><button type="button" className="btn btn-primary">Play Now <i className="fas fa-arrow-right"></i></button></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+
+                var ShowNumber = () => {
+    var numbers = [];
+    for (var i = 1; i <= 20; i++) {
+        numbers.push(<div className="number" key={i}>
+            {i}
+        </div>);
+    }
+    return numbers;
+}

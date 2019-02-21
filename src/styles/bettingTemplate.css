@@ -1,0 +1,27 @@
+.header {
+  height: auto;
+  border-bottom: 1px solid #ffffff; }
+  .header ul {
+    margin: 0px 100px;
+    padding: 0;
+    list-style-type: none;
+    display: inline-block; }
+  .header li {
+    float: left;
+    padding: 24px 34px; }
+  .header li a {
+    display: block;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none; }
+
+.root {
+  width: 100%;
+  height: 938px;
+  background-color: #00abf0;
+  color: aliceblue; }
+
+.container {
+  margin: 24px 100px;
+  padding: 0; }
